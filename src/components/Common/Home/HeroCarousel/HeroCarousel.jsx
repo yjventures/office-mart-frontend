@@ -45,7 +45,7 @@ function HeroCarousel() {
     const HeroLeftTextSlideOne = () => {
         return (
             <div className="flex flex-col gap-4 p-2 justify-center items-start py-14 transition-all duration-500 -mt-1">
-                <img src={generalData?.logo ? generalData?.logo : icon} alt="icon" className="w-[90px] h-[90px] object-contain rounded-md" />
+                <img src={generalData?.darkLogo ? generalData?.darkLogo : icon} alt="icon" className="w-[90px] h-[90px] object-contain rounded-md" />
                 <p className={`text-[80px] font-teko max-w-[600px]`}
                     style={{
                         lineHeight: '72px',

@@ -46,7 +46,7 @@ export default {
         'header-background': '#242424',
         'footer-background': '#242424',
 
-        'buttons': "#E4BE62",
+        'buttons': "#00AEEF",
         'buttons-hover': "#CAAC81",
         'buttons-color': "#000",
 

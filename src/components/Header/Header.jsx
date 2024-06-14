@@ -257,7 +257,7 @@ export default function Header() {
             <span className="sr-only">{generalData?.name}</span>
             <div className='flex items-center gap-2 '>
               <img src={generalData?.logo ? generalData?.logo : icon} alt="logo" className='h-10 w-auto' />
-              <img src={generalData?.textLogo ? generalData?.textLogo : textIcon} alt="sonbola" className={`h-10 w-32 ${generalData?.textLogo && 'object-contain'}`} />
+              {/* <img src={generalData?.textLogo ? generalData?.textLogo : textIcon} alt="sonbola" className={`h-10 w-32 ${generalData?.textLogo && 'object-contain'}`} /> */}
             </div>
           </Link>
         </div>

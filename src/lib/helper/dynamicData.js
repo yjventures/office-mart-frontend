@@ -8,12 +8,13 @@ export const generalData = {
 
     // lebanon version
     // logo: 'https://sonbolabucket.s3.ap-southeast-2.amazonaws.com/main_logo.svg',
-    name: 'Oghrawi',
-    logo: 'https://sonbolabucket.s3.ap-southeast-2.amazonaws.com/fav+2.svg',
-    textLogo: 'https://sonbolabucket.s3.ap-southeast-2.amazonaws.com/text+2.svg',
-    bannerImage: 'https://sonbolabucket.s3.ap-southeast-2.amazonaws.com/banner1.svg',
-    bannerText: 'Buy the best chocolate with Oghrawi!',
-    bannerTextArabic: 'اشترِ أفضل شوكولاتة مع أغراوي',
+    name: 'Office mart',
+    logo: 'https://sonbolabucket.s3.ap-southeast-2.amazonaws.com/eng-logo.svg',
+    darkLogo: 'https://sonbolabucket.s3.ap-southeast-2.amazonaws.com/ICON+Black.svg',
+    textLogo: 'https://sonbolabucket.s3.ap-southeast-2.amazonaws.com/Text+Only.svg',
+    bannerImage: 'https://sonbolabucket.s3.ap-southeast-2.amazonaws.com/banner-main.svg',
+    bannerText: 'Welcome to the home of prints, gifts and office supplies',
+    bannerTextArabic: 'مرحبًا بكم في موطن المطبوعات والهدايا واللوازم المكتبية',
     bannerTextColor: '#000',
     // slider: [
     //     {
@@ -64,8 +65,8 @@ export const topBarData = {
 }
 
 export const footerData = {
-    logo: 'https://sonbolabucket.s3.ap-southeast-2.amazonaws.com/fav+2.svg',
-    textLogo: 'https://sonbolabucket.s3.ap-southeast-2.amazonaws.com/text+2.svg',
+    logo: 'https://sonbolabucket.s3.ap-southeast-2.amazonaws.com/eng-logo.svg',
+    textLogo: 'https://sonbolabucket.s3.ap-southeast-2.amazonaws.com/ICON+Black.svg',
     description: {
         en: 'Founded in 1975 by Mrs. Oussaima Ghrawi Ladki, Oussaima Ghrawi & Sons continues a family tradition of creating exquisite chocolates and confections. Our passion for quality and innovation has delighted customers worldwide for generations.',
         ar: 'تأسست شركة أوسيمة غراوي وأولادها في عام 1975 على يد السيدة أوسيمة غراوي لدكي، وتواصل تقليد عائلي في صنع الشوكولاتة والحلويات الفاخرة. لقد أسعد شغفنا بالجودة والابتكار العملاء في جميع أنحاء العالم لأجيال.'
@@ -280,11 +281,11 @@ export const homeOfferImage = {
     enabled: true,
     offers: [
         {
-            image: 'https://sonbolabucket.s3.ap-southeast-2.amazonaws.com/small_offer_banner_1.svg',
+            image: 'https://sonbolabucket.s3.ap-southeast-2.amazonaws.com/banner-small.svg',
             tag: 'special_offer',
         },
         {
-            image: 'https://sonbolabucket.s3.ap-southeast-2.amazonaws.com/small_offer_banner_2.svg',
+            image: 'https://sonbolabucket.s3.ap-southeast-2.amazonaws.com/banner-small-2.svg',
             tag: 'autumn_sale',
         },
     ]
@@ -295,11 +296,11 @@ export const offerSliderData = {
     items: [
         {
             title: {
-                "en": "Chocolate Bonanza",
+                "en": "Summer Offer",
                 "ar": "كرنفال الشوكولاتة"
             },
             description: {
-                "en": "20% off on all chocolate products",
+                "en": "20% off on all office supplies",
                 "ar": "خصم 20% على جميع منتجات الشوكولاتة"
             },
             image: "https://img.freepik.com/free-vector/abstract-colorful-low-poly-triangle-shapes_361591-3185.jpg",
@@ -311,7 +312,7 @@ export const offerSliderData = {
                 "ar": "صفقة حلوة"
             },
             description: {
-                "en": "Buy 1 Get 1 Free on selected chocolates",
+                "en": "Buy 1 Get 1 Free on selected products",
                 "ar": "اشترِ واحدة واحصل على واحدة مجانًا على الشوكولاتة المختارة"
             },
             image: "https://img.freepik.com/free-vector/wave-background_53876-115944.jpg",
