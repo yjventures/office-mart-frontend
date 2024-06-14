@@ -17,9 +17,9 @@ export const calculateTotalPrice = (product, quantity = 1, selectedVariationDeta
                 return (prev?.high_range > current?.high_range) ? prev : current;
             }, selectedVariation?.bulk_prices?.[0]);
 
-            if (bulkPrice) {
+            if (bulkPrice?.price) {
                 totalPrice = bulkPrice?.price * quantity;
-            } else if (highestBulkPriceVariation) {
+            } else if (highestBulkPriceVariation?.price) {
                 totalPrice = highestBulkPriceVariation?.price * quantity;
             } else {
                 totalPrice = selectedVariation?.sales_price !== undefined && selectedVariation?.sales_price !== null ? selectedVariation?.sales_price * quantity : selectedVariation?.price * quantity;
@@ -34,9 +34,9 @@ export const calculateTotalPrice = (product, quantity = 1, selectedVariationDeta
         // Find the appropriate bulk price product for the current quantity
         const bulkPriceProduct = product?.bulk_prices?.find(item => item?.low_range <= quantity && item?.high_range >= quantity) || highestBulkPriceProduct;
 
-        if (bulkPriceProduct) {
+        if (bulkPriceProduct?.price) {
             totalPrice = bulkPriceProduct?.price * quantity;
-        } else if (highestBulkPriceProduct) {
+        } else if (highestBulkPriceProduct?.price) {
             totalPrice = highestBulkPriceProduct?.price * quantity;
         } else {
             totalPrice = product?.sales_price !== null && product?.sales_price !== undefined ? product?.sales_price * quantity : product?.price * quantity;
