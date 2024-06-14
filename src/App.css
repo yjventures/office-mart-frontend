@@ -1,0 +1,35 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.chats::-webkit-scrollbar {
+    width: 16px;
+}
+
+.chats::-webkit-scrollbar-track {
+    background-color: #e5f3e5;
+    border-radius: 100px;
+}
+
+.chats::-webkit-scrollbar-thumb {
+    background-color: #aae997;
+    border-radius: 100px;
+}
+
+.admin-scroll::-webkit-scrollbar {
+    width: 16px;
+}
+
+.admin-scroll::-webkit-scrollbar-track {
+    background-color: #ccfacc;
+    /* border-radius: 10px; */
+}
+
+.admin-scroll::-webkit-scrollbar-thumb {
+    background-color: #08701e;
+    border-radius: 100px;
+}
