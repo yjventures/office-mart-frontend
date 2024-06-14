@@ -118,7 +118,7 @@ const AdminSignin = ({ }) => {
             <div className='bg-white lg:my-32 w-[100%] max-w-[380px] border bottom-1 flex justify-between flex-col' style={{ boxShadow: '0px 7.204px 36.022px 0px rgba(0, 0, 0, 0.12)' }}>
                 {/* tab for switching singin and singup */}
                 <div className='flex w-full py-3 text-black'>
-                    <p className={`text-xl w-[100%] pb-2 text-center font-[600] border-b-4 border-[#A6E66E] cursor-pointer`} >
+                    <p className={`text-xl w-[100%] pb-2 text-center font-[600] border-b-4 border-tertiary-700 cursor-pointer`} >
                         ADMIN SIGN IN
                     </p>
                     {/* 

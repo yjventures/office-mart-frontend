@@ -31,7 +31,7 @@ export const generalData = {
     eventEnabled: true,
     event: {
         firstName: 'Happy',
-        lastName: 'Chocolate Day',
+        lastName: 'Labour Day',
         percentage: 20,
     }
 }
